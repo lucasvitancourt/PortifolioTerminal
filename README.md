@@ -1,41 +1,68 @@
-# Portfólio em Formato de Terminal
+<div align="center">
 
-# Link:
+# 💻 Portfólio Terminal
 
-terminallucasvitancourt.netlify.app
+**Um portfólio interativo que funciona como um terminal Linux, direto no navegador.**
 
-## Descrição
+[![Acessar](https://img.shields.io/badge/Acessar_ao_vivo-111827?style=for-the-badge&logo=gnubash&logoColor=white)](https://terminallucasvitancourt.netlify.app/)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-Este é um portfólio interativo desenvolvido em formato de terminal, oferecendo uma experiência única aos visitantes, semelhante a um terminal de linha de comando.
+</div>
 
-## Funcionalidades
+---
 
-- Visualização de informações pessoais e profissionais.
-- Execução de comandos para obter detalhes adicionais ou executar ações específicas.
-- Navegação por diferentes seções do portfólio.
-- Personalização da interface do terminal.
+## ✨ Sobre
 
-## Comandos Disponíveis
+Em vez de rolar uma página comum, o visitante digita comandos — como num terminal de verdade — para conhecer quem eu sou, o que eu faço e como falar comigo. Tudo em HTML, CSS e JavaScript puro, sem frameworks e sem build.
 
-- `help`: Exibe uma lista de comandos disponíveis.
-- `about`: Apresenta informações sobre o proprietário do portfólio.
-- `projects`: Lista projetos desenvolvidos pelo proprietário.
-- `socials`: Mostra links para contas de mídia social do proprietário.
-- `email`: Exibe o endereço de e-mail do proprietário.
-- `wallpaper`: Permite alterar o papel de parede do terminal.
-- `clear`: Limpa a tela do terminal.
+## ⌨️ Comandos
 
-## Tecnologias Utilizadas
+| Comando | O que faz |
+|:--|:--|
+| `help` | Lista todos os comandos disponíveis |
+| `about` | Mostra quem eu sou |
+| `projects` | Lista meus projetos |
+| `socials` | Links para minhas redes |
+| `email` | Mostra meu e-mail de contato |
+| `wallpaper` | Troca o papel de parede do terminal |
+| `clear` | Limpa a tela |
 
-- HTML5
-- CSS3
-- JavaScript
+## 🚀 Rodando localmente
 
-## Autor
+Não precisa instalar nada:
 
-[Lucas Vitancourt]
+```bash
+git clone https://github.com/lucasvitancourt/PortifolioTerminal.git
+cd PortifolioTerminal
+# abra o index.html no navegador
+```
 
-## Contribuição
+Ou, se preferir um servidor local:
 
-Contribuições são bem-vindas! Se você quiser melhorar este projeto, sinta-se à vontade para enviar um pull request.
+```bash
+npx serve .
+```
 
+## 📁 Estrutura
+
+```
+PortifolioTerminal/
+├── index.html   # estrutura do terminal
+├── style.css    # visual (cores, fonte, cursor)
+├── script.js    # interpretador de comandos
+└── img/         # papéis de parede
+```
+
+## 🤝 Contribuindo
+
+Ideias de novos comandos são bem-vindas! Abra uma issue ou envie um pull request.
+
+---
+
+<div align="center">
+
+Feito por [Lucas Vitancourt](https://github.com/lucasvitancourt)
+
+</div>
